@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
 RUN apt-get update && \
-    apt-get install git
+    DEBIAN_FRONTEND=noninteractive apt-get install -y git
 
 
